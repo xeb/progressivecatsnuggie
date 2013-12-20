@@ -1,0 +1,69 @@
+body {
+	padding-top: 20px;
+	padding-bottom: 60px;
+}
+
+.header {
+	background: url(../img/cat.jpg) no-repeat 50% -200px;
+	width: 100%;
+	min-height: 600px;
+	padding-top: 40px;
+}
+
+.header p {
+	font-size: 0.8em;	
+	color: #fff;
+	max-width: 500px;
+}
+.header .lead {
+	font-size: 1.2em;
+	color: #eee;
+	max-width: 600px;
+}
+.jumbotron {
+	background: rgba(100,100,100,0.4);
+	color: #fff;
+	min-height: 400px;
+}
+
+.jumbotron h1 {
+	text-shadow: 4px 4px rgba(0,0,0,0.8);
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+}
+
+.progress {
+	height: 50px !important;
+	margin-bottom: 50px;
+}
+
+.progress-bar {
+	font-size: 25px;
+	line-height: 40px;
+}
+
+.container .row { 
+	margin: 70px 0 100px 0;
+}
+
+.container .row h2 {
+	color: #43ac6a;
+	font-size: 3em;
+}
+
+.container .row p {
+	font-size: 1.5em;
+}
+
+.container .row img {
+	margin: 10px auto;
+	text-align: center;
+}
+
+.container .row .form-group {
+	max-width: 300px;
+}
+
+.container .row a {
+	padding: 10px 15px !important;
+}
