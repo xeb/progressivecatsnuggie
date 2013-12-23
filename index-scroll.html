@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Progressive Cat Snuggie</title>
+  <meta name="title" content="Progressive Cat Snuggie" />
+  <meta name="description" content="The most progressive web site on the internet...related to snuggies...and cats." />
+
+  <link rel="shortcut icon" id="favicon" href="favicon.png"> 
+  <meta name="author" content="Mark Kockerbeck">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+  <link href='css/onepage-scroll.css' rel='stylesheet' type='text/css'>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="http://getbootstrap.com/2.3.2/assets/css/bootstrap-responsive.css" rel="stylesheet">
+  <link href='css/catsscroll.css' rel='stylesheet' type='text/css'>
+  <link href="http://fonts.googleapis.com/css?family=Lato:900" rel='stylesheet' type='text/css'>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    .btn:hover, .btn:hover {
+      background: #444;
+    }
+    .btns {
+      width: 410px;
+      margin: 50px auto;
+    }
+    
+    header {
+      position: relative;
+      z-index: 10;
+    }
+    .main section .page_container {
+      position: relative;
+      top: 25%;
+      margin: 0 auto 0;
+      max-width: 950px;
+      z-index: 3;
+    }
+    .main section  {
+      overflow: hidden;
+    }
+    
+    .main section > img {
+      position: absolute;
+      max-width: 100%;
+      z-index: 1;
+    }
+    
+    .main section .page_container .btns {
+      clear: both;
+      float: left;
+      text-align: center;
+      width: 435px;
+    }
+    .main section .page_container .btns a{
+      text-align: center;
+    }
+    
+    body.disabled-onepage-scroll .onepage-wrapper  section {
+      min-height: 100%;
+      height: auto;
+    }
+    
+    body.disabled-onepage-scroll .main section .page_container, body.disabled-onepage-scroll .main section.page3 .page_container  {
+      padding: 20px;
+      margin-top: 150px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    
+    body.disabled-onepage-scroll  section .page_container h1{
+      text-align: center;
+      font-size: 50px;
+    }
+    body.disabled-onepage-scroll section .page_container h2, body.disabled-onepage-scroll section .page_container .credit, body.disabled-onepage-scroll section .page_container .btns{
+      text-align: center;
+      width: 100%;
+    }
+    
+    body.disabled-onepage-scroll .main section.page1 > img {
+      position: absolute;
+      width: 80%;
+      left: 10%;
+    }
+    
+    body.disabled-onepage-scroll .main section > img {
+      position: relative;
+      max-width: 80%;
+      bottom: 0;
+    }
+    body.disabled-onepage-scroll code {
+      width: 95%;
+      margin: 0 auto 25px;
+      float: none;
+      overflow: hidden;
+    }
+    
+    body.disabled-onepage-scroll .main section.page3 .page_container {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      right: 0;
+    }
+  </style>
+  <script>
+    $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600
+      });
+    });
+    
+  </script>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="main">
+      
+      <section class="page1">
+        <div class="page_container header">
+
+          <div class="jumbotron">
+            <h1>Progressive Cat Snuggie</h1>
+            <p class="lead">Change the world, <br/>right from your computer.</p>
+            <p>By using tools acquired from online universities, gaming, and big data, we build, pursued, and engage our members.  We just ask for 10-15 minutes a day and promise to amplify your voice on issues you &dash; and most of the country! &dash; already support.
+            </p>
+            <a class="btn btn-large btn-success" href="#join">Join</a>
+            <a class="btn btn-large btn-info" href="#imagine">Imagine</a>
+            <a class="btn btn-large btn-warning" href="#stats">Big Data</a>
+            <a class="btn btn-large btn-danger" href="http://gop.com">Go Fuck Yourself</a>
+          </div>
+
+        </div>
+      </section>
+      
+      <section class="page2">
+        <div class="page_container">
+
+          <div class="row">
+            <h2 id="imagine">Imagine things in your brain</h2>
+            <p>Imagine if we had the data to make politics personal. Instead of saying a bill will cut social security by 10%, we could say this bill would reduce <strong>your Mom's</strong> social security by $90.  Mother-fucking $90!</p>
+            <p>Imagine making a argument and refining it using A/B testing until you have the most powerful argument with the highest conversion, then use it to persuade the undecided.  The what nots don't matter. If your argument isn't good enough - talk about something else as if it were related to the original topic.</p>
+            <blockquote>
+              <p>Give people constant feedback with points and reward results with unique badges. <br/>Give people a way to compete and brag.</p>
+              <small><cite title="DF">DF</cite></small>
+            </blockquote>
+            
+          </div>
+        </div>
+      </section>
+      
+      <section class="page3">
+          <img src="img/progress.gif" id="cat" />
+        <div class="page_container">
+          <h1>What it currently looks like</h1>
+          <h2>An imaginary populist progressive political movement of internet enthusiasts wearing cat snuggies.</h2>
+        </div>
+      </section>
+
+
+      <section class="page2">
+        <div class="page_container">
+          <h1>Ready-to-use plugin</h1>
+          <h2>All you need is an HTML markup, call the script and BAM!</h2>
+          <code class="html">
+            &lt;div class="main"&gt;<br>
+              &lt;section&gt;...&lt;/section&gt;<br>
+              &lt;section&gt;...&lt;/section&gt;<br>
+              ...<br>
+            &lt;/div&gt;
+          </code>
+          <code class="js">
+            $(".main").onepage_scroll();
+          </code>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</body>
+</html>

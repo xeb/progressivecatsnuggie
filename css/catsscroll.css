@@ -1,0 +1,136 @@
+
+    html {
+      height: 100% !important;
+    }
+    body {
+      height: 100%;
+    }
+    
+    .wrapper {
+      height: 100% !important;
+      margin: 0 auto; 
+      overflow: hidden;
+    }
+    .main {
+      float: left;
+      width: 100%;
+      margin: 0 auto;
+    }
+   
+    .clear {
+      width: auto;
+    }
+    
+
+.page1 {
+	background: url(../img/cat.jpg) no-repeat 50% -200px;
+	text-align: left;
+}
+
+.header p {
+	font-size: 0.8em;	
+	font-family: Helvetica, sans-serif;
+	color: #fff;
+	max-width: 500px;
+	text-align: left;
+	padding: 10px;
+}
+.header .lead {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #eee;
+}
+.jumbotron {
+	background: rgba(100,100,100,0.4);
+	color: #fff;
+	min-height: 600px;
+	padding: 5px 0 0 50px;
+}
+
+.jumbotron h1 {
+	text-shadow: 4px 4px rgba(0,0,0,0.8);
+	font-weight: bold;
+	font-family: 'Lato', sans-serif;
+	font-size: 70px;
+	letter-spacing: -4px;
+}
+
+
+.main section.page2 {
+  background: #555557;
+  color: #aaa;
+  font-size: 1.5em;
+}
+.main section.page2 h2 {
+	color: #43ac6a;
+}
+.main section.page2 blockquote p, .main section.page2 blockquote cite {
+	color: #eee;
+}
+
+
+    .main section.page3 {
+      background:#ccc;
+    }
+    .main section.page3 .page_container {
+    	float: left;
+    	max-width: 500px;
+    }
+    .main section.page3 img {
+    	float: left;
+    	position: relative;
+    	top: 25%;
+    }
+    
+    .main section.page3 h1 {
+      text-align: left;
+      padding: 0;
+      margin-bottom: 0;
+      font-size: 70px;
+      letter-spacing: -1px;
+      color: black;
+    }
+    .main section.page3 h2 {
+      color: rgba(0,0,0,0.85);
+      text-align: left;
+      line-height: 160%;
+      font-weight: 100;
+      font-size: 21px;
+    }
+
+.progress {
+	height: 50px !important;
+	margin-bottom: 50px;
+}
+
+.progress-bar {
+	font-size: 25px;
+	line-height: 40px;
+}
+
+.container .row { 
+	margin: 70px 0 100px 0;
+}
+
+.container .row h2 {
+	color: #43ac6a;
+	font-size: 3em;
+}
+
+.container .row p {
+	font-size: 1.5em;
+}
+
+.container .row img {
+	margin: 10px auto;
+	text-align: center;
+	max-width: 100%;
+}
+
+.container .row .form-group {
+	max-width: 300px;
+}
+
+.container .row a {
+	padding: 10px 15px !important;
+}
